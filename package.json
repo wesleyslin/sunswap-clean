@@ -1,0 +1,23 @@
+{
+    "dependencies": {
+        "@noble/secp256k1": "^2.1.0",
+        "axios": "^1.7.4",
+        "discord.js": "^14.15.3",
+        "dotenv": "^16.4.5",
+        "node-telegram-bot-api": "^0.66.0",
+        "pino": "^9.3.2",
+        "pino-pretty": "^11.2.2",
+        "tronweb": "^4.4.0"
+    },
+    "name": "sunpump",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "sell": "node scripts/sunSwapSell.js"
+
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": ""
+}
